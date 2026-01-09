@@ -1,5 +1,5 @@
 {
-  "name": "@devradar-dev/cli",
+  "name": "@devradardev/cli",
   "version": "1.0.0",
   "description": "CLI tool for DevRadar - Check your tech stack compatibility from the terminal",
   "author": "DevRadar Team <hello@devradar.dev>",
@@ -7,7 +7,7 @@
   "homepage": "https://devradar.dev",
   "repository": {
     "type": "git",
-    "url": "https://github.com/devradar-dev/cli"
+    "url": "git+https://github.com/devradar-dev/cli.git"
   },
   "bugs": {
     "url": "https://github.com/devradar-dev/cli/issues"
@@ -23,7 +23,7 @@
     "react"
   ],
   "bin": {
-    "devradar": "./bin/devradar.js"
+    "devradar": "bin/devradar.js"
   },
   "files": [
     "bin",
